@@ -1,27 +1,33 @@
-# Atelier Motors - Concesionario de Lujo 🏎️
+<p align="center">
+  <img src="LogoNombreDerecha.png" alt="Elite Motors Logo" width="500">
+</p>
 
-Este es un proyecto de desarrollo web estático para un concesionario de vehículos de alta gama. El diseño se centra en la exclusividad, la elegancia y una experiencia de usuario visualmente impactante, siguiendo los estándares de marcas como Porsche y Mercedes-Benz.
+<p align="center">
+  <b>Concesionario de Vehículos de Alta Gama</b><br>
+  <i>"Donde la ingeniería se encuentra con el arte"</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-1.0.0-c5a059?style=for-the-badge" alt="Versión">
+  <img src="https://img.shields.io/badge/Design-Premium-black?style=for-the-badge" alt="Diseño">
+  <img src="https://img.shields.io/badge/Tech-HTML5_%26_CSS3-orange?style=for-the-badge&logo=html5" alt="Tecnología">
+</p>
+
+---
 
 ## 🛠️ Tecnologías Utilizadas
-- **HTML5**: Estructura semántica para SEO y accesibilidad.
-- **CSS3**: Diseño moderno utilizando Flexbox, CSS Grid y Media Queries para total responsividad.
-- **Google Fonts**: Tipografías 'Montserrat' y 'Playfair Display' para un look premium.
+- **HTML5**: Estructura semántica para SEO.
+- **CSS3**: Layouts con Flexbox y CSS Grid (Totalmente Responsive).
+- **Tipografía**: Montserrat y Playfair Display (via Google Fonts).
 
-## 📁 Estructura del Proyecto
-- `index.html`: Portada con Hero Video/Imagen y destacados.
-- `catalogo.html`: Galería de inventario con sistema de Grid.
-- `nosotros.html`: Historia y valores de la marca.
-- `contacto.html`: Formulario de atención al cliente y ubicación.
-- `coche-1.html` / `coche-2.html`: Fichas detalladas de vehículos.
-- `assets/style.css`: Hoja de estilos centralizada.
+## 📁 Estructura de Archivos
+- `index.html`: Landing page con Hero Banner.
+- `catalogo.html`: Grid de productos.
+- `nosotros.html`: Historia y valores corporativos.
+- `contacto.html`: Formulario y ubicación.
+- `coche-1.html` & `coche-2.html` & `coche-3.html`: Detalles de producto.
+- `assets/style.css`: Estilos globales.
 
-## 🚀 Instalación y Visualización
-1. Clona o descarga este repositorio.
-2. Asegúrate de mantener la estructura de carpetas.
-3. Abre el archivo `index.html` en cualquier navegador moderno.
-
-## 🎨 Paleta de Colores
-- **Principal**: `#0a0a0a` (Negro Obsidiana)
-- **Acento**: `#c5a059` (Dorado Champagne)
-- **Fondo Suave**: `#1a1a1a` (Gris Oscuro)
-- **Texto**: `#ffffff` (Blanco) y `#a0a0a0` (Gris Plata)
+## 🚀 Cómo ejecutar
+1. Clona o descarga los archivos.
+2. Abre `index.html` en tu navegador.
