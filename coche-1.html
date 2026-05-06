@@ -59,7 +59,24 @@
             <li><span>Tracción</span> Trasera (RWD)</li>
           </ul>
 
-          <button class="btn" style="width: 100%">Reservar Ahora</button>
+          <details class="reserva-form">
+          <summary class="btn" style="width: 100%; cursor: pointer;">
+            Reservar Ahora
+          </summary>
+
+          <h3>Datos del cliente</h3>
+
+          <form>
+            <input type="text" placeholder="Nombre completo" required />
+            <input type="email" placeholder="Correo electrónico" required />
+            <input type="tel" placeholder="Teléfono" required />
+            <input type="text" placeholder="Ciudad" />
+            
+            <textarea placeholder="Comentarios adicionales"></textarea>
+
+            <button type="submit" class="btn">Confirmar Reserva</button>
+          </form>
+        </details>
         </div>
       </section>
     </main>

@@ -1,4 +1,25 @@
 /* ==========================================================================
+  Fuentes de Texto
+  ========================================================================== */
+@font-face {
+  font-family: 'Maddac';
+  src: url('/assets/fonts/MaddacRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Texto general */
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Maddac', sans-serif;
+}
+
+/* ==========================================================================
    Variables y Reset
    ========================================================================== */
 :root {
@@ -321,4 +342,76 @@ footer p {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+}
+/*===========================================================================
+  Boton Reserva
+=============================================================================*/
+.reserva-form {
+  margin-top: 2rem;
+  padding: 0 2rem;
+  background: linear-gradient(145deg, #0a0a0a, #111);
+  border: 1px solid #222;
+  border-radius: 12px;
+}
+
+/* Animación de apertura */
+.reserva-form[open] {
+  padding: 2rem;
+}
+
+/* Summary (tu "botón") */
+.reserva-form summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+/* Título */
+.reserva-form h3 {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: var(--accent-gold);
+  letter-spacing: 1px;
+}
+
+/* Inputs */
+.reserva-form input,
+.reserva-form textarea {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  background: #0d0d0d;
+  border: 1px solid #2a2a2a;
+  color: white;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Focus */
+.reserva-form input:focus,
+.reserva-form textarea:focus {
+  border-color: var(--accent-gold);
+  outline: none;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
+}
+
+/* Placeholder */
+.reserva-form input::placeholder,
+.reserva-form textarea::placeholder {
+  color: #777;
+}
+
+/* Botón */
+.reserva-form .btn {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: var(--accent-gold);
+  color: black;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.reserva-form .btn:hover {
+  background: #e6c15a;
+  transform: translateY(-2px);
 }
