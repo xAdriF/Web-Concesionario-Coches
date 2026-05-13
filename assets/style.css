@@ -1,6 +1,3 @@
-/* ==========================================================================
-  Fuentes de Texto
-  ========================================================================== */
 @font-face {
   font-family: 'Maddac';
   src: url('/assets/fonts/MaddacRegular.ttf') format('truetype');
@@ -8,20 +5,14 @@
   font-style: normal;
 }
 
-
-/* Texto general */
 body {
   font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Títulos */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Maddac', sans-serif;
 }
 
-/* ==========================================================================
-   Variables y Reset
-   ========================================================================== */
 :root {
   --bg-dark: #0a0a0a;
   --bg-card: #161616;
@@ -32,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
   --font-main: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*Colocación logo*/
 .logo img {
   max-height: 85px;
   width: auto;
@@ -67,9 +57,6 @@ img {
   display: block;
 }
 
-/* ==========================================================================
-   Navegación (Header)
-   ========================================================================== */
 header {
   background-color: rgba(10, 10, 10, 0.95);
   position: sticky;
@@ -115,9 +102,6 @@ nav {
   color: var(--accent-gold);
 }
 
-/* ==========================================================================
-   Hero Section
-   ========================================================================== */
 .hero {
   height: 80vh;
   background-image:
@@ -175,9 +159,6 @@ nav {
   color: #000;
 }
 
-/* ==========================================================================
-   Grid de Catálogo (Destacados y General)
-   ========================================================================== */
 .section-padding {
   padding: 5rem 2rem;
   max-width: 1200px;
@@ -231,9 +212,6 @@ nav {
   margin-bottom: 1rem;
 }
 
-/* ==========================================================================
-   Página de Detalle (Coche)
-   ========================================================================== */
 .car-detail {
   display: flex;
   gap: 4rem;
@@ -273,9 +251,6 @@ nav {
   color: var(--text-muted);
 }
 
-/* ==========================================================================
-   Formularios y Contacto
-   ========================================================================== */
 .contact-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -308,9 +283,6 @@ nav {
   border-color: var(--accent-gold);
 }
 
-/* ==========================================================================
-   Footer
-   ========================================================================== */
 footer {
   background-color: #050505;
   padding: 3rem 2rem;
@@ -324,12 +296,9 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* ==========================================================================
-   Media Queries (Responsive)
-   ========================================================================== */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* En un proyecto real aquí iría un menú hamburguesa */
+    display: none;
   }
 
   .hero-content h1 {
@@ -343,29 +312,22 @@ footer p {
     gap: 2rem;
   }
 }
-/*===========================================================================
-  Boton Reserva
-=============================================================================*/
-.reserva-form {
-  margin-top: 2rem;
-  padding: 0 2rem;
+
+.reserva-form[open] {
+  padding: 2rem;
   background: linear-gradient(145deg, #0a0a0a, #111);
   border: 1px solid #222;
-  border-radius: 12px;
 }
 
-/* Animación de apertura */
 .reserva-form[open] {
   padding: 2rem;
 }
 
-/* Summary (tu "botón") */
 .reserva-form summary {
   list-style: none;
   cursor: pointer;
 }
 
-/* Título */
 .reserva-form h3 {
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
@@ -373,7 +335,6 @@ footer p {
   letter-spacing: 1px;
 }
 
-/* Inputs */
 .reserva-form input,
 .reserva-form textarea {
   width: 100%;
@@ -386,7 +347,6 @@ footer p {
   font-size: 0.95rem;
 }
 
-/* Focus */
 .reserva-form input:focus,
 .reserva-form textarea:focus {
   border-color: var(--accent-gold);
@@ -394,13 +354,11 @@ footer p {
   box-shadow: 0 0 8px rgba(212, 175, 55, 0.3);
 }
 
-/* Placeholder */
 .reserva-form input::placeholder,
 .reserva-form textarea::placeholder {
   color: #777;
 }
 
-/* Botón */
 .reserva-form .btn {
   width: 100%;
   margin-top: 0.5rem;
